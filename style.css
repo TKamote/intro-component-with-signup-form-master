@@ -31,9 +31,10 @@ body {
     display: grid;
     background-color: var(grayish-blue);
     max-width: 1440px;
-    height: auto;
+    height: 100vh;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    margin: auto auto;
 }
 h1 {
     font-weight: 600;
@@ -177,6 +178,7 @@ a {
         grid-template-columns: 1fr;
         border: none;
         padding: 30px 0px 30px 0px;
+        background-image: url(images/bg-intro-mobile.png);
     }
     .box1 {
         text-align: center; 
@@ -191,9 +193,6 @@ a {
     }
     .box1 {
         text-align: center;
-    }
-    .box2 {
-        
     }
 }
 
