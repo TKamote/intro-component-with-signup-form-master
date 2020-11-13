@@ -88,7 +88,8 @@ input {
     height: 37px;
     border-radius: 5px;
     border: solid .05px var(--grayish-blue);
-    padding-left: 10px;   
+    padding-left: 10px; 
+    margin-top: 15px;  
 }
 .btn {
     height: 37px;
@@ -119,14 +120,19 @@ a {
 .tandc {
     font-weight: 600;
 }
-.bad-input {
+.bad-input,
+.bad-input1,
+.bad-input2,
+.bad-input3
+ {
+    display: none;
     font-size: .6em;
     text-align: end;
     font-style: italic;
     margin-bottom: 5px;
     font-weight: 400;
     /*color: var(--red);*/
-    color: transparent;
+    color: var(--red);
 }
 #hiddenimage-fname,
 #hiddenimage-lname,
@@ -139,16 +145,16 @@ a {
     display: none;
 }
 #hiddenimage-fname {
-    top: 26px; 
+    top: 41px; 
 }
 #hiddenimage-lname {
-    top: 89px;
+    top: 115px;
 }
 #hiddenimage-email-address {
-    top: 153px;
+    top: 188px;
 }
 #hiddenimage-password {
-    top: 216px;
+    top: 260px;
 }
 
 @media only screen and (max-width: 990px) {
